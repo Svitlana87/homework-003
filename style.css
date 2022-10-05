@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+    height: 100%;  
+}
+.text {
+    display: flex;  /* по центру */
+    justify-content: center; /* вирівнювання по горизонталі */
+    align-items: center; /* вирівнювання по вертикалі */
+    font-size: 30px; /* розмір тексту */
+    font-weight: 600; /* жирний текст */
+    font-style: unset;
+}
+header {
+    min-height: 15vh;
+    background-color: #ac9292;
+    margin: 0 auto;
+}
+nav {
+    min-height: 10vh;
+    background-color: #c2a2a2;
+}
+main {
+    min-height: auto;
+    overflow: scroll;
+   /* background-color: #dcc3c3;*/
+}
+
+footer {
+    min-height: 10vh;
+    background-color: #ac9292;
+}
+.inputs {
+    min-height: 20vh;
+    background-color: #e2d1d1;
+}
+.video_audio {
+    min-height: 20vh;
+    background-color: #d8bfbf;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.first_colum {
+    padding-right: 50px;
+}
+
+.tables {
+    min-height: 50vh;
+    background-color: #e2d1d1;
+    padding-bottom: 50px;
+}
+form {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    
+}
+table {
+    border: 1px solid black;
+    background-color: #ffff00;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+thead th{
+    font-weight: 700;
+}
+th {
+    font-weight: unset;
+    border: 1px solid black;
+    padding: 10px;
+}
+.last_row {
+    font-size: x-large;
+}
+.violet_red {
+    background-color: #7004eb;
+    color: #ff004c;
+}
+.red {
+    color: #ff5500;
+}
+.fon_red {
+    background-color: #ff0000;
+}
+.blue_white {
+    background-color: #0000ff;
+    color: white;
+}
+.orange_green {
+    background-color: #ffa500;
+    color: #529000;
+}
+.white {
+    background-color: white;
+}
+.blue_blue {
+    background-color: #4682b4;
+    color: #0d00ff;
+}
+.blue {
+    color: #0d00ff;
+}
+
+
